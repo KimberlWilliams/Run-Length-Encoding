@@ -9,7 +9,7 @@ for i in range(len(S)):
         else:
             encs+="!"*alpha[S[i][j]]
             
-print "Encoded String:",
+print "Encoded String:"
 for i in range(0,len(encs),57):
     print encs[i:i+57]
     
